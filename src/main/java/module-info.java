@@ -5,4 +5,6 @@ module co.edu.uniquindio.poo.techparkuq {
 
     opens co.edu.uniquindio.poo.techparkuq to javafx.fxml;
     exports co.edu.uniquindio.poo.techparkuq;
+    exports co.edu.uniquindio.poo.techparkuq.view;
+    opens co.edu.uniquindio.poo.techparkuq.view to javafx.fxml;
 }

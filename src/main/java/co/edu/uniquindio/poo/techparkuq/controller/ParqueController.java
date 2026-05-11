@@ -1,4 +1,4 @@
 package co.edu.uniquindio.poo.techparkuq.controller;
 
-public class Controladores {
+public class ParqueController {
 }
