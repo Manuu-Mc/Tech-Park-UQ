@@ -1,4 +1,11 @@
 package co.edu.uniquindio.poo.techparkuq.model.records;
 
-public record Notificacion() {
+import java.time.LocalDateTime;
+import co.edu.uniquindio.poo.techparkuq.model.enums.TipoNotificacion;
+
+public record Notificacion(
+        String mensaje,
+        LocalDateTime fechaHora,
+        TipoNotificacion formatoNotificacion
+) {
 }
